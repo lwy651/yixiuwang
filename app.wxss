@@ -1,0 +1,38 @@
+/**app.wxss**/
+
+.container {
+  padding: 4px 12px;
+}
+
+page {
+  background-color: #f4f4f4;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  font-family: Helvetica Neue,
+                 Tahoma,
+                 Arial,
+                 PingFangSC-Regular,
+                 Hiragino Sans GB,
+                 Microsoft Yahei,
+                 sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.boxshow {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.web_border {
+  border-bottom: 1px solid #f0f0f0;
+  border-right: 1px solid #f0f0f0;
+}
+.hid_right_border{
+  border-right: none;
+}
+
+.hid_bottom_border{
+  border-bottom: none;
+}

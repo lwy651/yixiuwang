@@ -1,0 +1,19 @@
+.cardWrapper{
+    background-color: #fff;
+}
+.card{
+    width: 33.333333%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    vertical-align: middle;
+    text-align: center;
+}
+.card image{
+    width: 150rpx;
+    height: 150rpx;
+}
+.card text{
+    font-size: 12px;
+    color: #949494;
+}

@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/customer/customer",
+    "pages/login/login",
+    "pages/repairpage/repairpage"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "backgroundColor": "#f4f4f4",
+    "navigationBarBackgroundColor": "#FF7D32",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#949494",
+    "selectedColor": "#FF7D32",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "主页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home_fill.svg"
+      },
+      {
+        "pagePath": "pages/customer/customer",
+        "text": "客服",
+        "iconPath": "images/community.png",
+        "selectedIconPath": "images/community_fill.svg"
+      },
+      {
+        "pagePath": "pages/login/login",
+        "text": "我的",
+        "iconPath": "images/my.png",
+        "selectedIconPath": "images/my_fill.svg"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+<view class="cardWrapper boxshow">
+  <block wx:for="{{cards}}" wx:for-item="card" wx:key="id">
+    <view class="card web_border {{card.style}}">
+      <view class="classname">
+        <image src="{{card.icon}}"></image>
+      </view>
+      <view class="classname">
+        <text>{{card.title}}</text>
+      </view>
+    </view>
+  </block>
+</view>
