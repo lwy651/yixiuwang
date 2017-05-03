@@ -1,12 +1,25 @@
 <view class="classname">
-  <view class="classname"></view>
-  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" class="swiper">
+  <view class="Nav">
+    <view class="classname">
+      <text>一修家电维修</text>
+    </view>
+    <view class="web_nav_sub">
+      <text>快速 · 专业 · 经济</text>
+    </view>
+    <form>
+      <view class="web_search">
+        <input type="text" class="searchInput" placeholder="请输入关键词" />
+      </view>
+    </form>
+  </view>
+
+  <!--<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" class="swiper">
     <block wx:for="{{imgUrls}}" wx:key="id">
       <swiper-item>
         <image src="{{item}}" class="swiper-item" mode="scaleToFill" />
       </swiper-item>
     </block>
-  </swiper>
+  </swiper>-->
   <view class="car_wrapper">
     <block wx:for="{{cardData}}" wx:for-item="item" wx:key="id">
       <view bindtap="gotoUrl" data-url="{{item.url}}" class="car_cell web_border {{item.style}}">
@@ -23,4 +36,5 @@
   <view class="imageBanner">
     <image class="imageBanner_item" src="{{imageBanner}}" modmode="widthFix"></image>
   </view>
+  <input type="search" placeholder="请输入关键词" />
 </view>

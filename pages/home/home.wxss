@@ -26,14 +26,14 @@ swiper image {
   height: 200px;
 }
 
-.car_wrapper{
+.car_wrapper {
   width: 100%;
   margin-top: 10px;
   background-color: #fff;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
-.car_cell{
+.car_cell {
   width: 50%;
   padding: 20rpx;
   display: inline-block;
@@ -42,18 +42,18 @@ swiper image {
   overflow: hidden;
 }
 
-.web_title{
+.web_title {
   font-size: 20px;
   white-space: nowrap;
 }
 
-.web_sub{
+.web_sub {
   font-size: 13px;
   color: #ccc;
   white-space: nowrap;
 }
 
-.left_card{
+.left_card {
   width: 65%;
   text-align: left;
   display: inline-block;
@@ -63,7 +63,7 @@ swiper image {
   overflow: hidden;
 }
 
-.right_card{
+.right_card {
   width: auto;
   display: inline-block;
   vertical-align: middle;
@@ -71,7 +71,42 @@ swiper image {
   overflow: hidden;
 }
 
-.right_card image{
+.right_card image {
   width: 50px;
   height: 50px;
+}
+
+/*searchbanner*/
+
+.Nav {
+  width: 100%;
+  height: 400rpx;
+  /*text-align: center;
+  vertical-align: middle;*/
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  /*background: linear-gradient(#F86F22, #D74D00);*/
+  background-color: #f86f22;
+}
+
+.web_nav_sub{
+  color: #fff;
+  text-align: center;
+  font-size: 36rpx;
+  vertical-align: middle;
+}
+
+.web_search {
+  background-color: #fff;
+  border-radius: 35rpx;
+  margin: 0 40rpx;
+  height: 70rpx;
+  top: 300rpx;
+  text-align: center;
+}
+
+.searchInput {
+  /*vertical-align: middle;*/
+  font-size: 30rpx;
+  height: 70rpx;
+  margin: 0 60rpx;
 }
