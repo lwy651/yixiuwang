@@ -1,0 +1,4 @@
+<!--pages/bindmobile/bindmobile.wxml-->
+<view class="classname">
+    <input  type="text"/>
+</view>

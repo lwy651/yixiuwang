@@ -1,0 +1,50 @@
+/* pages/user/user.wxss */
+
+.web_user{
+    margin-top: 40rpx;
+}
+.section{
+    height: 90rpx;
+    background-color: #ffffff;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 0 40rpx;
+}
+
+.web_input{
+    /*padding:0 40rpx;*/
+    box-sizing: border-box;
+    vertical-align: middle;
+    font-size: 36rpx;
+    display: flex;
+}
+
+.CountButton{
+    width: 160rpx;
+    height: 56rpx;
+    border-radius: 8rpx;
+    background: #FF7D32;
+    color: #fff;
+    text-align: center;
+    font-size: 26rpx;
+    line-height: 56rpx;
+    margin-right: 0;
+}
+
+.web_message{
+    font-size: 26rpx;
+    color: #999;
+    margin:20rpx 40rpx;
+}
+
+.web_bingding_btn{
+    background-color: #FF7D32;
+    color: #fff;
+    margin: 0 40rpx;
+}
+
+.web_place{
+    color: #ccc
+}

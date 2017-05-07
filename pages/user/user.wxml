@@ -1,0 +1,28 @@
+
+<!--pages/user/user.wxml-->
+<view class="classname">
+  <view class="web_user" hidden="{{!(web_states==1)}}">
+    <form class="">
+      <view class="section web_border_bottom web_border_top">
+        <input bindinput="bindChange" class="web_input" type="number" placeholder="手机号" placeholder-class="web_place"/>
+        <button bindtap="getyan" class="CountButton" disabled="{{getmobiletf}}">
+          获取验证码
+        </button>
+      </view>
+      <view class="section web_border_bottom">
+        <input bindinput="codeChange" class="web_input" type="number" placeholder="验证码" placeholder-class="web_place"/>
+      </view>
+    </form>
+    <view class="web_message">
+      <text>温馨提示：未注册饿了么帐号的手机号，登录时将自动注册，且代表您已同意</text>
+      <a>《用户协议》</a>
+    </view>
+    <button bindtap="mobileVerification" class="web_bingding_btn">绑定手机号</button>
+  </view>
+  <view class="classname" hidden="{{!(web_states==2)}}">
+    <text>setting</text>
+  </view>
+  <view class="classname" hidden="{{!(web_states==3)}}">
+    <text>user</text>
+  </view>
+</view>

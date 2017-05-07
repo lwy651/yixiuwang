@@ -26,13 +26,22 @@ page {
 }
 
 .web_border {
-  border-bottom: 1px solid #f0f0f0;
-  border-right: 1px solid #f0f0f0;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
 }
-.hid_right_border{
+
+.hid_right_border {
   border-right: none;
 }
 
-.hid_bottom_border{
+.hid_bottom_border {
   border-bottom: none;
+}
+
+.web_border_bottom {
+  border-bottom: 1px solid #ddd;
+}
+
+.web_border_top {
+  border-top: 1px solid #ddd;
 }

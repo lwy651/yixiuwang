@@ -1,9 +1,12 @@
 {
   "pages": [
+    "pages/user/user",
     "pages/home/home",
     "pages/customer/customer",
     "pages/login/login",
-    "pages/repairpage/repairpage"
+    "pages/repairpage/repairpage",
+    "pages/bindmobile/bindmobile",
+    "pages/setting/setting"
   ],
   "window": {
     "backgroundTextStyle": "light",

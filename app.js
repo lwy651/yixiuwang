@@ -12,7 +12,22 @@ App({
     console.log('asd');
     AV.User.loginWithWeapp().then(user => {
       this.globalData.user = user.toJSON();
-      console.log(user);
-    }).catch(console.error+"111111");
+      //console.log(this.globalData.user);
+    }).catch(console.error);
+  },
+  globalData: {
+    user: null
+  },
+  getuser: function () {
+    if (this.globalData.user) {
+      return this.globalData.user;
+    }
+    else {
+      AV.User.loginWithWeapp().then(user => {
+        this.globalData.user = user.toJSON();
+        //console.log(this.globalData.user);
+        return user;
+      }).catch(console.error);
+    }
   }
 })
