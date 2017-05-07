@@ -17,7 +17,7 @@
       <text>温馨提示：未注册饿了么帐号的手机号，登录时将自动注册，且代表您已同意</text>
       <a>《用户协议》</a>
     </view>
-    <button bindtap="mobileVerification" class="web_bingding_btn">绑定手机号</button>
+    <button bindtap="mobileVerification" class="web_bingding_btn" disabled="{{bangtf}}">绑定手机号</button>
   </view>
   <view class="classname" hidden="{{!(web_states==2)}}">
     <text>setting</text>

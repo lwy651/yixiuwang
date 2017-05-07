@@ -1,6 +1,7 @@
 // pages/user/user.js
 const app = getApp();
 const AV = require('../../utils/av-weapp-min');
+const common = require('../../utils/common');
 
 var myreg = /^(((13[0-9]{1})|(15[0-9]{1})|(18[0-9]{1}))+\d{8})$/;
 
@@ -9,7 +10,8 @@ Page({
     web_states: 1,
     getmobiletf: true,
     mobileNum: "",
-    code: null
+    code: null,
+    bangtf:true
   },
   onLoad: function (options) {
     // 页面初始化 options为页面跳转所带来的参数
@@ -68,7 +70,20 @@ Page({
   },
   codeChange: function (e) {
     this.code = 425689;
+    console.log(common.numrep(e.detail.value));
     console.log(this.code);
+    if(common.numrep(e.detail.value))
+    {
+      this.setData(
+        {bangtf:false}
+      )
+    }
+    else
+    {
+      this.setData(
+        {bangtf:true}
+      )
+    }
   }
   ,
   mobileVerification: function () {

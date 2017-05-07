@@ -32,7 +32,7 @@
         "selectedIconPath": "images/community_fill_light.png"
       },
       {
-        "pagePath": "pages/login/login",
+        "pagePath": "pages/user/user",
         "text": "我的",
         "iconPath": "images/my_light.png",
         "selectedIconPath": "images/my_fill_light.png"

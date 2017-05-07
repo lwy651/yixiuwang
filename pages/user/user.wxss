@@ -17,7 +17,7 @@
     /*padding:0 40rpx;*/
     box-sizing: border-box;
     vertical-align: middle;
-    font-size: 36rpx;
+    font-size: 32rpx;
     display: flex;
 }
 
