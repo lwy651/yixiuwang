@@ -4,6 +4,7 @@ const AV = require('../../utils/av-weapp-min');
 const common = require('../../utils/common');
 
 var myreg = /^(((13[0-9]{1})|(15[0-9]{1})|(18[0-9]{1}))+\d{8})$/;
+var mobileNum_reg = /(\d{3})\d{4}(\d{4})/;
 
 Page({
   data: {
@@ -11,7 +12,8 @@ Page({
     getmobiletf: true,
     mobileNum: "",
     code: null,
-    bangtf:true
+    bangtf:true,
+    userName:""
   },
   onLoad: function (options) {
     // 页面初始化 options为页面跳转所带来的参数
@@ -20,7 +22,9 @@ Page({
     if (user.mobilePhoneVerified) {
       this.setData(
         {
-          web_states: 3
+          web_states: 3,
+          userName: user.username,
+          mobileNum: user.mobilePhoneNumber.replace(mobileNum_reg, '$1****$2')
         }
       )
     }

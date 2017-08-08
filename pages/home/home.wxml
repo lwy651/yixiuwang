@@ -1,8 +1,5 @@
 <view class="classname">
   <view class="Nav">
-    <view class="classname">
-      <text>一修家电维修</text>
-    </view>
     <view class="web_nav_sub">
       <text>快速 · 专业 · 经济</text>
     </view>

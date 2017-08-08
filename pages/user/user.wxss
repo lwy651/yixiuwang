@@ -1,50 +1,114 @@
 /* pages/user/user.wxss */
 
-.web_user{
-    margin-top: 40rpx;
-}
-.section{
-    height: 90rpx;
-    background-color: #ffffff;
-    overflow: hidden;
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
-    padding: 0 40rpx;
+.web_user {
+  margin-top: 40rpx;
 }
 
-.web_input{
-    /*padding:0 40rpx;*/
-    box-sizing: border-box;
-    vertical-align: middle;
-    font-size: 32rpx;
-    display: flex;
+.section {
+  height: 90rpx;
+  background-color: #fff;
+  overflow: hidden;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding: 0 40rpx;
 }
 
-.CountButton{
-    width: 160rpx;
-    height: 56rpx;
-    border-radius: 8rpx;
-    background: #FF7D32;
-    color: #fff;
-    text-align: center;
-    font-size: 26rpx;
-    line-height: 56rpx;
-    margin-right: 0;
+.web_input {
+  /*padding:0 40rpx;*/
+  box-sizing: border-box;
+  vertical-align: middle;
+  font-size: 32rpx;
+  display: flex;
 }
 
-.web_message{
-    font-size: 26rpx;
-    color: #999;
-    margin:20rpx 40rpx;
+.CountButton {
+  width: 160rpx;
+  height: 56rpx;
+  border-radius: 8rpx;
+  background: #ff7d32;
+  color: #fff;
+  text-align: center;
+  font-size: 26rpx;
+  line-height: 56rpx;
+  margin-right: 0;
 }
 
-.web_bingding_btn{
-    background-color: #FF7D32;
-    color: #fff;
-    margin: 0 40rpx;
+.web_message {
+  font-size: 26rpx;
+  color: #999;
+  margin: 20rpx 40rpx;
 }
 
-.web_place{
-    color: #ccc
+.web_bingding_btn {
+  background-color: #ff7d32;
+  color: #fff;
+  margin: 0 40rpx;
+}
+
+.web_place {
+  color: #ccc;
+}
+
+.web_Nav {
+  background-color: #f86f22;
+  width: 100%;
+  height: 300rpx;
+}
+
+.web_profile {
+  background-color: #f86f22;
+  padding: 40rpx 20rpx;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.web_profile image {
+  border-radius: 50%;
+  width: 180rpx;
+  height: 180rpx;
+}
+
+.web_profile_txt {
+  margin-left: 40rpx;
+  margin-bottom: 20rpx;
+}
+
+.web_profile_name {
+  font-size: 60rpx;
+  overflow: hidden;
+}
+
+.web_profile_mobile {
+  font-size: 30rpx;
+}
+
+.web_profile_menu {
+  background-color: #fff;
+  margin-top: 20rpx;
+  font-size: 36rpx;
+  color: #333;
+}
+
+.web_profile_cell {
+  padding-left: 40rpx;
+  align-items: center;
+  display: flex;
+}
+
+.web_profile_cell image {
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+
+.web_profile_cell_txt {
+  width: 100%;
+  padding: 16rpx;
+}
+
+.web_profile_border {
+  border-bottom: 1rpx solid #ddd;
 }
