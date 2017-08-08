@@ -79,13 +79,14 @@ swiper image {
 /*searchbanner*/
 
 .Nav {
-  width: 100%;
-  height: 400rpx;
+  padding: 100rpx 20rpx;
+  /* width: 100%; */
+  /* height: 400rpx; */
   /*text-align: center;
   vertical-align: middle;*/
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  /*background: linear-gradient(#F86F22, #D74D00);*/
-  background-color: #f86f22;
+  /* background: linear-gradient(#F86F22, #D74D00); */
+   background-color: #f86f22; 
 }
 
 .web_nav_sub{

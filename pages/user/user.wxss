@@ -58,16 +58,16 @@
 
 .web_profile {
   background-color: #f86f22;
-  padding: 40rpx 20rpx;
+  padding: 40rpx 40rpx;
   color: #fff;
   display: flex;
   align-items: center;
 }
 
-.web_profile image {
+.web_profile_image {
   border-radius: 50%;
-  width: 180rpx;
-  height: 180rpx;
+  width: 120rpx;
+  height: 120rpx;
 }
 
 .web_profile_txt {
@@ -76,12 +76,18 @@
 }
 
 .web_profile_name {
-  font-size: 60rpx;
+  font-size: 50rpx;
   overflow: hidden;
 }
 
 .web_profile_mobile {
   font-size: 30rpx;
+  line-height: 30rpx;
+}
+
+.web_mobile_icon {
+  width: 30rpx;
+  height: 30rpx;
 }
 
 .web_profile_menu {
@@ -100,15 +106,15 @@
 .web_profile_cell image {
   width: 40rpx;
   height: 40rpx;
-  margin-left: 20rpx;
-  margin-right: 20rpx;
+  margin-right: 40rpx;
 }
 
 .web_profile_cell_txt {
   width: 100%;
-  padding: 16rpx;
+  padding: 18rpx 0rpx;
 }
 
 .web_profile_border {
-  border-bottom: 1rpx solid #ddd;
+  /* border-top: 1rpx solid #ddd; */
+   border-bottom: 1rpx solid #ddd; 
 }
