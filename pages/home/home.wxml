@@ -4,8 +4,9 @@
       <text>快速 · 专业 · 经济</text>
     </view>
     <form>
-      <view class="web_search">
-        <input type="text" class="searchInput" placeholder="请输入关键词" />
+      <view bindtap="gotoSearch" class="web_search">
+         <text class="searchInput">请输入关键词</text> 
+         <!-- <input bindtap="gotoSearch" type="text" class="searchInput" placeholder="请输入关键词" />  -->
       </view>
     </form>
   </view>

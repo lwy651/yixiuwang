@@ -58,7 +58,7 @@
 
 .web_profile {
   background-color: #f86f22;
-  padding: 40rpx 40rpx;
+  padding: 60rpx 40rpx;
   color: #fff;
   display: flex;
   align-items: center;

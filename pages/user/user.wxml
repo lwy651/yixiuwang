@@ -37,7 +37,7 @@
       </view>
     </view>
     <view class="web_profile_menu">
-      <view class="web_profile_cell">
+      <view bindtap="gotoOrder" class="web_profile_cell">
         <image src="../../images/icon.svg"></image>
         <view class="web_profile_cell_txt web_profile_border">
           <text>我的订单</text>

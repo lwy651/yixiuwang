@@ -1,18 +1,20 @@
 {
   "pages": [
-    "pages/user/user",
     "pages/home/home",
+    "pages/order/order",
+    "pages/user/user",
     "pages/customer/customer",
     "pages/login/login",
     "pages/repairpage/repairpage",
     "pages/bindmobile/bindmobile",
-    "pages/setting/setting"
+    "pages/setting/setting",
+    "pages/search/search"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "backgroundColor": "#f4f4f4",
     "navigationBarBackgroundColor": "#F86F22",
-    "navigationBarTextStyle": "white"
+    "navigationBarTextStyle": "dark"
   },
   "tabBar": {
     "color": "#949494",

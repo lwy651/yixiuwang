@@ -1,0 +1,8 @@
+<!--pages/order/order.wxml-->
+<import src="../../components/orderlist/orderlist.wxml" />
+<view class="classname">
+  <template is="Orderlist"></template>
+  <template is="Orderlist"></template>
+  <template is="Orderlist"></template>
+  <template is="Orderlist"></template>
+</view>

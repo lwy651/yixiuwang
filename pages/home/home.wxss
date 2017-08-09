@@ -108,6 +108,7 @@ swiper image {
 .searchInput {
   /*vertical-align: middle;*/
   font-size: 30rpx;
-  height: 70rpx;
   margin: 0 60rpx;
+  color: #666;
+  line-height: 70rpx;
 }

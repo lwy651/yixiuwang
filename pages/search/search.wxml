@@ -1,0 +1,20 @@
+<!--pages/search/search.wxml-->
+<view class="search">
+  <view class="search_head">
+    <input placeholder="请输入服务项目" class="search_head_input" />
+  </view>
+  <view class="search_history">
+    <view class="search_history_title">
+      <text>热门搜索</text>
+    </view>
+  </view>
+  <view class="search_history_bread">
+    <text class="search_history_bread_icon">空调</text>
+    <text class="search_history_bread_icon">空调</text>
+    <text class="search_history_bread_icon">洗衣机</text>
+    <text class="search_history_bread_icon">电视</text>
+    <text class="search_history_bread_icon">热水器</text>
+    <text class="search_history_bread_icon">空调</text>
+    <text class="search_history_bread_icon">燃气灶</text>
+  </view>
+</view>

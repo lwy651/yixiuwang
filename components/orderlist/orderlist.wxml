@@ -1,0 +1,26 @@
+<!--orderlist.wxml-->
+<template name="Orderlist">
+  <view class="ordercard_boy">
+    <view class="ordercard_card_avatar">
+      <text>家</text>
+    </view>
+    <view class="ordercard">
+      <view class="ordercard_head">
+        <view class="ordercard_head_title">
+          <text>空调维修</text>
+        </view>
+        <view class="ordercard_detail_time">
+          <text>时间：2017.8.9</text>
+        </view>
+      </view>
+      <view class="ordercard_detail">
+        <view class="ordercard_detail_desc">
+          <text>不制冷不制冷不制冷不制冷不制冷不制冷不制冷</text>
+        </view>
+        <view class="ordercard_detail_price">
+          <text>¥16.00</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

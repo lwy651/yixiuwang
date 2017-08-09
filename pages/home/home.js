@@ -61,5 +61,13 @@ Page({
                 // complete
             }
         })
+    },
+    gotoSearch:function(event){
+      wx:wx.navigateTo({
+        url: '../search/search',
+        success: function(res) {},
+        fail: function(res) {},
+        complete: function(res) {},
+      })
     }
 })

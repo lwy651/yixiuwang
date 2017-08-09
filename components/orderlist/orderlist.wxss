@@ -1,0 +1,54 @@
+/* orderlist.wxss */
+
+.ordercard {
+  color: #333;
+  display: block;
+  margin-left: 20rpx;
+}
+
+.ordercard_boy {
+  display: flex;
+  background-color: #fff;
+  padding: 20rpx 40rpx;
+  margin-top: 40rpx;
+}
+
+.ordercard_card_avatar {
+  color: #ff7d32;
+  font-size: 60rpx;
+}
+
+.ordercard_head {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10rpx;
+}
+
+.ordercard_head_title {
+  font-size: 40rpx;
+}
+
+.ordercard_detail {
+  display: flex;
+  font-size: 30rpx;
+  padding-top: 20rpx;
+  justify-content: space-between;
+  color: #666;
+}
+
+.ordercard_detail_time {
+  font-size: 24rpx;
+  color: #999;
+}
+
+.ordercard_detail_desc {
+  max-width: 500rpx;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-weight: 400;
+}
+
+.ordercard_detail_price {
+  font-weight: 700;
+  text-align: right;
+}

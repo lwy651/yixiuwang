@@ -93,5 +93,13 @@ Page({
   mobileVerification: function () {
     console.log(this.code);
     AV.User.verifyMobilePhone(this.code).catch(console.error)
+  },
+  gotoOrder:function(e){
+    wx:wx.navigateTo({
+      url: '../order/order',
+      success: function(res) {},
+      fail: function(res) {},
+      complete: function(res) {},
+    })
   }
 })
